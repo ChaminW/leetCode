@@ -1,5 +1,5 @@
 # This is the solution of No.1 problem in LeetCode, https://leetcode.com/problems/two-sum
-# This is the brute force approach. In worst case scenario it's time complexity is O(n^2).
+# This is the brute force approach. In worst case scenario, it's time complexity is O(n^2).
 # There are optimized approaches.
 
 class Solution(object):
@@ -16,7 +16,8 @@ class Solution(object):
                     return [index1,index2]
         return []
 
-nums = map(int,raw_input()[1:-1].split(","))
+
+nums = map(int, raw_input()[1:-1].split(","))
 target = input()
 
 print Solution().twoSum(nums,target)
